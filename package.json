@@ -4,7 +4,8 @@
   "description": "a website for a local PDR business",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/brinkhill/dent-tec/issues"
   },
-  "homepage": "https://github.com/brinkhill/dent-tec#readme"
+  "homepage": "https://github.com/brinkhill/dent-tec#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
 }

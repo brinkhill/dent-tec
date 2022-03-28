@@ -1,0 +1,19 @@
+{
+  "name": "dent-tec",
+  "version": "1.0.0",
+  "description": "a website for a local PDR business",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brinkhill/dent-tec.git"
+  },
+  "author": "Brinkley Hill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brinkhill/dent-tec/issues"
+  },
+  "homepage": "https://github.com/brinkhill/dent-tec#readme"
+}
